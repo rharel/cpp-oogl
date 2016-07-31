@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\include\oogl\GLObject.cpp" />
+    <ClCompile Include="..\include\oogl\VertexBuffer.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\RenderBuffer.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\info.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\io.cpp">
+      <Filter>utilitiy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\FrameBuffer.cpp">
+      <Filter>containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\VertexArray.cpp">
+      <Filter>containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\Texture.cpp">
+      <Filter>containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\Shader.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\Program.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\UniformBase.cpp">
+      <Filter>program\uniforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\VectorUniform.cpp">
+      <Filter>program\uniforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\oogl\VectorUniformBase.cpp">
+      <Filter>program\uniforms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\oogl\GLObject.hpp" />
+    <ClInclude Include="..\include\oogl\VertexBuffer.hpp">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\RenderBuffer.hpp">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\info.hpp">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\io.hpp">
+      <Filter>utilitiy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\FrameBuffer.hpp">
+      <Filter>containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\VertexArray.hpp">
+      <Filter>containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\Texture.hpp">
+      <Filter>containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\Shader.hpp">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\Program.hpp">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\UniformBase.hpp">
+      <Filter>program\uniforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\VectorUniform.hpp">
+      <Filter>program\uniforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oogl\VectorUniformBase.hpp">
+      <Filter>program\uniforms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="misc">
+      <UniqueIdentifier>{e3613304-e7f5-4ceb-a291-b29940c82975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{0b3c8c2a-967c-4a7e-939b-73c619285dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="containers">
+      <UniqueIdentifier>{1ed5f918-6ce0-47b0-8195-8c484e315d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program">
+      <UniqueIdentifier>{8213c775-6ffd-4d24-a6d5-71254a7ac69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\uniforms">
+      <UniqueIdentifier>{adc54aef-8272-48a8-be9f-2d6e99e94526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilitiy">
+      <UniqueIdentifier>{3c64f2b1-0e94-4ef0-a87e-9c4ce0967eb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
